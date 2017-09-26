@@ -1,4 +1,4 @@
-CC          = gcc
+CC          = g++
 HPDEMO_LIB_CCFLAGS     = -g -O3 -fPIC -shared -lstdc++ -mavx -msse4 \
                      -I. -I$(CUDA_DIR)/include -I/usr/local/include \
                      -L. -L/usr/local/lib \
