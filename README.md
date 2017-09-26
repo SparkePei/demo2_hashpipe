@@ -34,7 +34,7 @@ static hashpipe_thread_desc_t demo2_net_thread = {
     obuf_desc: {demo2_input_databuf_create}
 };
 ```
-* Installation and running of demo1
+* Installation and running of demo2
 
 	* To install demo2, you only need to tap make & sudo make install. 
 	* To run demo, execute ./demo2_init.sh.
