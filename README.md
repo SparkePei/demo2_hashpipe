@@ -42,5 +42,5 @@ static hashpipe_thread_desc_t demo2_net_thread = {
 	* For status monitor, open another window and tap hashpipe_status_monitor.rb to monitor it. (we can use "screen" command to split the screen to 3 parts.)
 
 Fig. 1 shows how does demo2 looks like.
-![demo2 screen](demo1-screen.png)
+![demo2 screen](demo2-screen.png)
 > Fig. 1 demo2's screen capture
