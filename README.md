@@ -6,7 +6,7 @@ In this demo, we will receive the data through Ethernet, the other parts are ver
 * demo2_net_thread
 
 To receive the data through Ethernet, we have to configure our IP address and network, we can put this part in an init function:
-```
+```javascript
 static int init(hashpipe_thread_args_t * args)
 {
         hashpipe_status_t st = args->st;
@@ -24,7 +24,7 @@ static int init(hashpipe_thread_args_t * args)
 }
 ```
 In the statment of demo2_net_thread, we need to put the init function after init, in this way it will load the function we pointed when the thread starting.
-```
+```javascript
 static hashpipe_thread_desc_t demo2_net_thread = {
     name: "demo2_net_thread",
     skey: "NETSTAT",
